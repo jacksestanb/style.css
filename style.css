@@ -1,0 +1,32 @@
+/* Hide timestamps */
+.vfrc-timestamp {
+    display: none;
+}
+
+/* Reduce font size for assistant messages */
+.vfrc-system-response .vfrc-message {
+    font-size: 14px;
+}
+
+/* Reduce font size for user messages */
+.vfrc-user-response .vfrc-message {
+    font-size: 14px;
+}
+
+/* Reduce font size for assistant buttons */
+.vfrc-system-response .vfrc-button {
+    font-size: 14px;
+}
+
+/* Customize the launcher */
+.vfrc-launcher {
+    font-size: 12px; /* Reduced font size */
+    background-color: #007BFF; /* Custom background color for the launcher */
+    color: white; /* Custom text color */
+    border-radius: 50%; /* Make the launcher circular */
+    width: 50px; /* Custom width */
+    height: 50px; /* Custom height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
